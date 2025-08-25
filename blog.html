@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Resources & Insights - Komplieye Audit & Compliance Platform</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="audit management, compliance software, case studies, banking insights, RBI compliance resources" name="keywords">
+        <meta content="Explore comprehensive resources, case studies, and expert insights on audit management and compliance automation for banks and NBFCs in India." name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+
+        <style>
+            .hero-gradient {
+                background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            }
+
+            .resource-card {
+                background: white;
+                border-radius: 16px;
+                transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+                border: 1px solid #e5e7eb;
+                overflow: hidden;
+            }
+
+            .resource-card:hover {
+                transform: translateY(-8px);
+                box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+                border-color: var(--bs-primary);
+            }
+
+            .category-badge {
+                display: inline-block;
+                background: linear-gradient(135deg, var(--bs-primary), #1e40af);
+                color: white;
+                padding: 6px 16px;
+                border-radius: 20px;
+                font-size: 12px;
+                font-weight: 600;
+                text-transform: uppercase;
+                letter-spacing: 0.5px;
+            }
+
+            .read-time {
+                color: #6b7280;
+                font-size: 14px;
+                display: flex;
+                align-items: center;
+                gap: 6px;
+            }
+
+            .featured-article {
+                background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+                border-radius: 20px;
+                padding: 40px;
+                margin-bottom: 60px;
+            }
+
+            .filter-btn {
+                padding: 10px 24px;
+                border: 2px solid #e5e7eb;
+                background: white;
+                color: #6b7280;
+                border-radius: 25px;
+                transition: all 0.3s;
+                font-weight: 500;
+            }
+
+            .filter-btn:hover,
+            .filter-btn.active {
+                background: var(--bs-primary);
+                border-color: var(--bs-primary);
+                color: white;
+            }
+
+            .stats-section {
+                background: linear-gradient(135deg, #1e293b 0%, #475569 100%);
+                border-radius: 20px;
+                padding: 40px;
+                color: white;
+                text-align: center;
+            }
+
+            .insight-preview {
+                background: rgba(255,255,255,0.05);
+                backdrop-filter: blur(10px);
+                border-radius: 12px;
+                padding: 24px;
+                border: 1px solid rgba(255,255,255,0.1);
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div class="container-fluid topbar px-0 d-none d-lg-block">
+            <div class="container px-0">
+                <div class="row gx-0 align-items-center" style="height: 45px;">
+                    <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+                        <div class="d-flex flex-wrap">
+                            <a href="#" class="text-muted me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Noida, India</a>
+                            <a href="#" class="text-muted me-4"><i class="fas fa-phone-alt text-primary me-2"></i>+91-9876543210</a>
+                            <a href="mailto:sanjay.yadav@kalolytic.com" class="text-muted me-0"><i class="fas fa-envelope text-primary me-2"></i>sanjay.yadav@kalolytic.com</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 text-center text-lg-end">
+                        <div class="d-flex align-items-center justify-content-end">
+                            <a href="https://www.linkedin.com/" class="btn btn-primary btn-square rounded-circle nav-fill me-3"><i class="fab fa-linkedin-in text-white"></i></a>
+                            <a href="https://twitter.com/" class="btn btn-primary btn-square rounded-circle nav-fill me-3"><i class="fab fa-twitter text-white"></i></a>
+                            <a href="https://www.youtube.com/" class="btn btn-primary btn-square rounded-circle nav-fill me-0"><i class="fab fa-youtube text-white"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid sticky-top px-0">
+            <div class="position-absolute bg-dark" style="left: 0; top: 0; width: 100%; height: 100%;">
+            </div>
+            <div class="container px-0">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-white py-3 px-4">
+                    <a href="index.html" class="navbar-brand p-0">
+                        <h1 class="text-primary m-0"><i class="fas fa-shield-alt me-3"></i>Komplieye</h1>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto py-0">
+                             <a href="index.html" class="nav-item nav-link">Home</a>
+                            <a href="about.html" class="nav-item nav-link">About</a>
+                            <a href="service.html" class="nav-item nav-link">Solutions</a>
+                            <a href="segments.html" class="nav-item nav-link">Segments</a>
+                            <a href="project.html" class="nav-item nav-link">Features</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Resources</a>
+                                <div class="dropdown-menu m-0">
+                                    <a href="blog.html" class="dropdown-item">Blog</a>
+                                    <a href="case-studies.html" class="dropdown-item">Case Studies</a>
+                                    <a href="use-cases.html" class="dropdown-item">Use Cases</a>
+                                    <a href="team.html" class="dropdown-item">Our Team</a>
+                                    <a href="testimonial.html" class="dropdown-item">Testimonials</a>
+                                    <a href="faqs.html" class="dropdown-item">FAQs</a>
+                                </div>
+                            </div>
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        </div>
+                        <div class="d-flex align-items-center flex-nowrap pt-xl-0">
+                            <button class="btn btn-primary btn-md-square mx-2" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
+                            <a href="contact.html" class="btn btn-primary rounded-pill text-white py-2 px-4 ms-2 flex-wrap flex-sm-shrink-0">Request Demo</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- Modal Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h4 class="modal-title mb-0" id="exampleModalLabel">Search Resources</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input type="search" class="form-control p-3" placeholder="Search compliance topics, case studies, best practices..." aria-describedby="search-icon-1">
+                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search End -->
+
+        <!-- Hero Section Start -->
+        <div class="container-fluid hero-gradient py-5">
+            <div class="container py-5">
+                <div class="row align-items-center">
+                    <div class="col-lg-8">
+                        <div class="text-white wow fadeInLeft" data-wow-delay="0.1s">
+                            <h4 class="mb-3 text-white-50">Resources & Insights</h4>
+                            <h1 class="display-4 mb-4 text-white">Expert Knowledge for Modern Banking Compliance</h1>
+                            <p class="fs-5 mb-4 text-white-75">Stay ahead with the latest insights, case studies, and best practices in audit management and regulatory compliance for Indian financial institutions.</p>
+                            <div class="d-flex flex-wrap gap-3">
+                                <a href="https://linfordco.com/blog/" class="btn btn-light rounded-pill py-3 px-5">Explore Resources</a>
+                                <a href="contact.html" class="btn btn-outline-light rounded-pill py-3 px-5">Get Expert Consultation</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 wow fadeInRight" data-wow-delay="0.3s">
+                        <div class="stats-section">
+                            <div class="row g-3">
+                                <div class="col-6">
+                                    <div class="insight-preview">
+                                        <h3 class="text-white mb-1">500+</h3>
+                                        <small class="text-white-75">Resources Published</small>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="insight-preview">
+                                        <h3 class="text-white mb-1">50K+</h3>
+                                        <small class="text-white-75">Downloads</small>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="insight-preview">
+                                        <h3 class="text-white mb-1">98%</h3>
+                                        <small class="text-white-75">Relevance Score</small>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="insight-preview">
+                                        <h3 class="text-white mb-1">24/7</h3>
+                                        <small class="text-white-75">Expert Support</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero Section End -->
+
+        <!-- Featured Article Start -->
+        <div class="container py-5">
+            <div class="featured-article wow fadeInUp" data-wow-delay="0.1s" id="featured">
+                <div class="row align-items-center">
+                    <div class="col-lg-8">
+                        <div class="category-badge mb-3">Featured Insight</div>
+                        <h2 class="mb-4">RBI's New Guidelines for Digital Banking Compliance: A Comprehensive Analysis</h2>
+                        <p class="lead mb-4">Deep dive into the latest RBI circular on digital banking compliance and its implications for Indian banks and NBFCs. Learn how to adapt your compliance framework for the digital-first era.</p>
+                        <div class="d-flex align-items-center gap-4 mb-4">
+                            <div class="read-time">
+                                <i class="fas fa-clock"></i>
+                                <span>12 min read</span>
+                            </div>
+                            <div class="read-time">
+                                <i class="fas fa-calendar"></i>
+                                <span>January 18, 2024</span>
+                            </div>
+                            <div class="read-time">
+                                <i class="fas fa-user"></i>
+                                <span>Compliance Team</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-primary rounded-pill py-3 px-5">Read Full Analysis</a>
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="img/blog-1.jpg" class="img-fluid rounded-4" alt="RBI Digital Banking Guidelines">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Featured Article End -->
+
+        <!-- Filter Navigation Start -->
+        <div class="container mb-5">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <div class="d-flex flex-wrap justify-content-center gap-3">
+                    <button class="filter-btn active" data-filter="all">All Resources</button>
+                    <button class="filter-btn" data-filter="case-studies">Case Studies</button>
+                    <button class="filter-btn" data-filter="regulatory">Regulatory Updates</button>
+                    <button class="filter-btn" data-filter="best-practices">Best Practices</button>
+                    <button class="filter-btn" data-filter="whitepapers">Whitepapers</button>
+                    <button class="filter-btn" data-filter="webinars">Webinars</button>
+                    <button class="filter-btn" data-filter="product-updates">Product Updates</button>
+                </div>
+            </div>
+        </div>
+        <!-- Filter Navigation End -->
+
+        <!-- Resources Grid Start -->
+        <div class="container pb-5">
+            <div class="row g-4">
+                <!-- Case Study Card -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s" data-category="case-studies">
+                    <div class="resource-card h-100">
+                        <div class="position-relative">
+                            <img src="img/blog-1.jpg" class="img-fluid w-100" alt="Case Study" style="height: 200px; object-fit: cover;">
+                            <div class="position-absolute top-0 start-0 m-3">
+                                <span class="category-badge">Case Study</span>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <div class="d-flex align-items-center justify-content-between mb-3">
+                                <div class="read-time">
+                                    <i class="fas fa-clock"></i>
+                                    <span>8 min read</span>
+                                </div>
+                                <small class="text-muted">Jan 15, 2024</small>
+                            </div>
+                            <h5 class="mb-3">How ABC Bank Reduced Audit Time by 70% with Komplieye</h5>
+                            <p class="text-muted mb-4">A comprehensive case study showing how a leading private bank transformed their audit processes using automation and intelligent workflows.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="#" class="btn btn-outline-primary rounded-pill py-2 px-4">Read Case Study</a>
+                                <div class="d-flex gap-2">
+                                    <a href="#" class="text-muted"><i class="fas fa-bookmark"></i></a>
+                                    <a href="#" class="text-muted"><i class="fas fa-share-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Regulatory Update Card -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s" data-category="regulatory">
+                    <div class="resource-card h-100">
+                        <div class="position-relative">
+                            <img src="img/blog-2.jpg" class="img-fluid w-100" alt="Regulatory Update" style="height: 200px; object-fit: cover;">
+                            <div class="position-absolute top-0 start-0 m-3">
+                                <span class="category-badge" style="background: linear-gradient(135deg, #f59e0b, #d97706);">Regulatory Update</span>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <div class="d-flex align-items-center justify-content-between mb-3">
+                                <div class="read-time">
+                                    <i class="fas fa-clock"></i>
+                                    <span>5 min read</span>
+                                </div>
+                                <small class="text-muted">Jan 12, 2024</small>
+                            </div>
+                            <h5 class="mb-3">RBI Circular on Cyber Security Framework - Key Changes</h5>
+                            <p class="text-muted mb-4">Analysis of the latest RBI guidelines on cybersecurity framework for banks and their impact on compliance requirements.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="#" class="btn btn-outline-primary rounded-pill py-2 px-4">Read Update</a>
+                                <div class="d-flex gap-2">
+                                    <a href="#" class="text-muted"><i class="fas fa-bookmark"></i></a>
+                                    <a href="#" class="text-muted"><i class="fas fa-share-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Best Practices Card -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s" data-category="best-practices">
+                    <div class="resource-card h-100">
+                        <div class="position-relative">
+                            <img src="img/blog-3.jpg" class="img-fluid w-100" alt="Best Practices" style="height: 200px; object-fit: cover;">
+                            <div class="position-absolute top-0 start-0 m-3">
+                                <span class="category-badge" style="background: linear-gradient(135deg, #10b981, #059669);">Best Practice</span>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <div class="d-flex align-items-center justify-content-between mb-3">
+                                <div class="read-time">
+                                    <i class="fas fa-clock"></i>
+                                    <span>10 min read</span>
+                                </div>
+                                <small class="text-muted">Jan 10, 2024</small>
+                            </div>
+                            <h5 class="mb-3">Risk-Based Audit Planning: A Strategic Approach</h5>
+                            <p class="text-muted mb-4">Learn proven strategies for implementing risk-based audit planning that maximizes coverage while optimizing resource allocation.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="#" class="btn btn-outline-primary rounded-pill py-2 px-4">Read Guide</a>
+                                <div class="d-flex gap-2">
+                                    <a href="#" class="text-muted"><i class="fas fa-bookmark"></i></a>
+                                    <a href="#" class="text-muted"><i class="fas fa-share-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Whitepaper Card -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s" data-category="whitepapers">
+                    <div class="resource-card h-100">
+                        <div class="position-relative">
+                            <div class="bg-primary d-flex align-items-center justify-content-center" style="height: 200px;">
+                                <i class="fas fa-file-alt fa-5x text-white"></i>
+                            </div>
+                            <div class="position-absolute top-0 start-0 m-3">
+                                <span class="category-badge" style="background: linear-gradient(135deg, #8b5cf6, #7c3aed);">Whitepaper</span>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <div class="d-flex align-items-center justify-content-between mb-3">
+                                <div class="read-time">
+                                    <i class="fas fa-download"></i>
+                                    <span>PDF Download</span>
+                                </div>
+                                <small class="text-muted">Jan 8, 2024</small>
+                            </div>
+                            <h5 class="mb-3">The Future of Banking Compliance: AI & Automation</h5>
+                            <p class="text-muted mb-4">Comprehensive whitepaper exploring how artificial intelligence and automation are reshaping compliance management in banking.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="#" class="btn btn-outline-primary rounded-pill py-2 px-4">Download PDF</a>
+                                <div class="d-flex gap-2">
+                                    <a href="#" class="text-muted"><i class="fas fa-bookmark"></i></a>
+                                    <a href="#" class="text-muted"><i class="fas fa-share-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Webinar Card -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s" data-category="webinars">
+                    <div class="resource-card h-100">
+                        <div class="position-relative">
+                            <div class="bg-gradient d-flex align-items-center justify-content-center" style="height: 200px; background: linear-gradient(135deg, #ef4444, #dc2626);">
+                                <i class="fas fa-play-circle fa-5x text-white"></i>
+                            </div>
+                            <div class="position-absolute top-0 start-0 m-3">
+                                <span class="category-badge" style="background: linear-gradient(135deg, #ef4444, #dc2626);">Webinar</span>
+                            </div>
+                            <div class="position-absolute bottom-0 start-0 m-3">
+                                <span class="badge bg-dark">45 min</span>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <div class="d-flex align-items-center justify-content-between mb-3">
+                                <div class="read-time">
+                                    <i class="fas fa-video"></i>
+                                    <span>Webinar Recording</span>
+                                </div>
+                                <small class="text-muted">Jan 5, 2024</small>
+                            </div>
+                            <h5 class="mb-3">Mastering RBI Compliance: Expert Panel Discussion</h5>
+                            <p class="text-muted mb-4">Join our expert panel as they discuss the latest trends in RBI compliance and share practical insights from the field.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="#" class="btn btn-outline-primary rounded-pill py-2 px-4">Watch Now</a>
+                                <div class="d-flex gap-2">
+                                    <a href="#" class="text-muted"><i class="fas fa-bookmark"></i></a>
+                                    <a href="#" class="text-muted"><i class="fas fa-share-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Update Card -->
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s" data-category="product-updates">
+                    <div class="resource-card h-100">
+                        <div class="position-relative">
+                            <img src="img/service-1.jpg" class="img-fluid w-100" alt="Product Update" style="height: 200px; object-fit: cover;">
+                            <div class="position-absolute top-0 start-0 m-3">
+                                <span class="category-badge" style="background: linear-gradient(135deg, #06b6d4, #0891b2);">Product Update</span>
+                            </div>
+                        </div>
+                        <div class="p-4">
+                            <div class="d-flex align-items-center justify-content-between mb-3">
+                                <div class="read-time">
+                                    <i class="fas fa-rocket"></i>
+                                    <span>New Feature</span>
+                                </div>
+                                <small class="text-muted">Jan 3, 2024</small>
+                            </div>
+                            <h5 class="mb-3">Introducing AI-Powered Risk Assessment Engine</h5>
+                            <p class="text-muted mb-4">Discover our latest AI-powered risk assessment engine that automatically evaluates and scores compliance risks in real-time.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <a href="#" class="btn btn-outline-primary rounded-pill py-2 px-4">Learn More</a>
+                                <div class="d-flex gap-2">
+                                    <a href="#" class="text-muted"><i class="fas fa-bookmark"></i></a>
+                                    <a href="#" class="text-muted"><i class="fas fa-share-alt"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Load More Section -->
+            <div class="text-center mt-5 wow fadeInUp" data-wow-delay="0.1s">
+                <a href="#" class="btn btn-outline-primary rounded-pill py-3 px-5 me-3">Load More Resources</a>
+                <a href="contact.html" class="btn btn-primary rounded-pill py-3 px-5">Request Custom Content</a>
+            </div>
+        </div>
+        <!-- Resources Grid End -->
+
+        <!-- Newsletter Section Start -->
+        <div class="container-fluid bg-light py-5">
+            <div class="container py-5">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
+                        <h3 class="mb-4">Stay Updated with Latest Compliance Insights</h3>
+                        <p class="mb-4">Subscribe to our newsletter and get the latest regulatory updates, case studies, and expert insights delivered directly to your inbox.</p>
+                        <div class="d-flex gap-3">
+                            <div class="d-flex align-items-center gap-2 text-muted">
+                                <i class="fas fa-check-circle text-success"></i>
+                                <span>Weekly insights</span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2 text-muted">
+                                <i class="fas fa-check-circle text-success"></i>
+                                <span>Expert analysis</span>
+                            </div>
+                            <div class="d-flex align-items-center gap-2 text-muted">
+                                <i class="fas fa-check-circle text-success"></i>
+                                <span>No spam</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
+                        <div class="bg-white p-4 rounded-4 shadow-sm">
+                            <div class="input-group">
+                                <input type="email" class="form-control py-3" placeholder="Enter your email address">
+                                <button class="btn btn-primary px-4" type="button">Subscribe</button>
+                            </div>
+                            <small class="text-muted d-block mt-2">By subscribing, you agree to our Privacy Policy and Terms of Service.</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Newsletter Section End -->
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <div class="footer-item">
+                                <h4 class="text-white mb-4"><i class="fas fa-shield-alt me-2"></i>Komplieye</h4>
+                                <p class="mb-3">The most comprehensive audit & compliance platform for Indian financial institutions. Built specifically for banks and NBFCs.</p>
+                                <div class="position-relative mx-auto rounded-pill">
+                                    <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="email" placeholder="Enter your email">
+                                    <button type="button" class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">Subscribe</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Quick Links</h4>
+                            <a href="index.html"><i class="fas fa-angle-right me-2"></i> Home</a>
+                            <a href="about.html"><i class="fas fa-angle-right me-2"></i> Why Komplieye</a>
+                            <a href="project.html"><i class="fas fa-angle-right me-2"></i> Features</a>
+                            <a href="use-cases.html"><i class="fas fa-angle-right me-2"></i> Use Cases</a>
+                            <a href="about.html"><i class="fas fa-angle-right me-2"></i> About Us</a>
+                            <a href="contact.html"><i class="fas fa-angle-right me-2"></i> Contact</a>
+                            <a href="contact.html"><i class="fas fa-angle-right me-2"></i> Support</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Security & Compliance</h4>
+                            <p class="text-light mb-3">Enterprise-grade data security with encryption and access control. Our platform adheres to ISO 27001 standards and RBI IT guidelines.</p>
+                            <div class="mb-3">
+                                <h6 class="text-primary mb-2">Certifications:</h6>
+                                <small class="text-light d-block"><i class="fas fa-certificate me-2"></i>ISO 27001:2013 Certified</small>
+                                <small class="text-light d-block"><i class="fas fa-shield-alt me-2"></i>CERT-In Compliant</small>
+                                <small class="text-light d-block"><i class="fas fa-lock me-2"></i>GDPR Ready</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Contact Info</h4>
+                            <div class="mb-3">
+                                <h6 class="text-primary mb-2">Kalolytic Solutions Pvt. Ltd.</h6>
+                                <a href="https://maps.google.com/?q=Noida,India" target="_blank" class="text-light"><i class="fa fa-map-marker-alt me-2"></i> Noida, India</a>
+                            </div>
+                            <a href="mailto:sanjay.yadav@kalolytic.com" class="text-light mb-2"><i class="fas fa-envelope me-2"></i> sanjay.yadav@kalolytic.com</a>
+                            <a href="mailto:info@komplieye.com" class="text-light mb-2"><i class="fas fa-envelope me-2"></i> info@komplieye.com</a>
+                            <a href="tel:+919876543210" class="text-light mb-3"><i class="fas fa-phone me-2"></i> +91-9876543210</a>
+                            <div class="d-flex align-items-center">
+                                <a class="btn btn-light btn-md-square me-2" href="https://linkedin.com/company/komplieye" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-light btn-md-square me-2" href="https://twitter.com/komplieye" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-light btn-md-square me-2" href="https://youtube.com/komplieye" target="_blank"><i class="fab fa-youtube"></i></a>
+                                <a class="btn btn-light btn-md-square me-0" href="https://kalolytic.com" target="_blank"><i class="fas fa-globe"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-md-0">
+                        <span class="text-body"><i class="fas fa-copyright text-light me-2"></i>© 2025 Komplieye designed by Satyam Suman.</span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end text-body">
+                        <a class="border-bottom text-primary" href="privacy-policy.html">Privacy Policy</a> | <a class="border-bottom text-primary" href="terms-of-service.html">Terms of Service</a> | <a class="border-bottom text-primary" href="data-protection.html">Data Protection</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+        <!-- Floating Social Media Icons -->
+        <div class="floating-social">
+            <a href="https://wa.me/919876543210" class="whatsapp" target="_blank" title="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://t.me/komplieye" class="telegram" target="_blank" title="Telegram">
+                <i class="fab fa-telegram-plane"></i>
+            </a>
+        </div>
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+
+        <script>
+            // Filter functionality
+            document.addEventListener('DOMContentLoaded', function() {
+                const filterBtns = document.querySelectorAll('.filter-btn');
+                const resourceCards = document.querySelectorAll('[data-category]');
+
+                filterBtns.forEach(btn => {
+                    btn.addEventListener('click', function() {
+                        // Remove active class from all buttons
+                        filterBtns.forEach(b => b.classList.remove('active'));
+                        // Add active class to clicked button
+                        this.classList.add('active');
+
+                        const filter = this.getAttribute('data-filter');
+
+                        resourceCards.forEach(card => {
+                            if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                                card.style.display = 'block';
+                                card.classList.add('fade-in');
+                            } else {
+                                card.style.display = 'none';
+                            }
+                        });
+                    });
+                });
+            });
+        </script>
+        <script>
+            function toggleCaseStudy(caseStudyId, button) {
+                const caseStudy = document.getElementById(caseStudyId);
+                const icon = button.querySelector('i');
+
+                if (caseStudy.style.display === 'none' || caseStudy.style.display === '') {
+                    caseStudy.style.display = 'block';
+                    caseStudy.style.animation = 'fadeIn 0.5s ease-in-out';
+                    icon.className = 'fas fa-minus me-2';
+                    button.innerHTML = '<i class="fas fa-minus me-2"></i>Show Less';
+                } else {
+                    caseStudy.style.display = 'none';
+                    icon.className = 'fas fa-plus me-2';
+                    button.innerHTML = '<i class="fas fa-plus me-2"></i>Read More';
+                }
+            }
+        </script>
+    </body>
+
+</html>

@@ -1,0 +1,669 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Use Cases - Komplieye Audit & Compliance Platform</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="regulatory return filing, RBI circular tracking, audit finding management, banking compliance" name="keywords">
+        <meta content="Discover how Komplieye transforms banking operations with automated regulatory return filing, RBI circular tracking, and comprehensive audit finding management." name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div class="container-fluid topbar px-0 d-none d-lg-block">
+            <div class="container px-0">
+                <div class="row gx-0 align-items-center" style="height: 45px;">
+                    <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+                        <div class="d-flex flex-wrap">
+                            <a href="#" class="text-muted me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Noida, India</a>
+                            <a href="#" class="text-muted me-4"><i class="fas fa-phone-alt text-primary me-2"></i>+91-9876543210</a>
+                            <a href="#" class="text-muted me-0"><i class="fas fa-envelope text-primary me-2"></i>sanjay.yadav@kalolytic.com</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 text-center text-lg-end">
+                        <div class="d-flex align-items-center justify-content-end">
+                            <a href="#" class="btn btn-primary btn-square rounded-circle nav-fill me-3"><i class="fab fa-linkedin-in text-white"></i></a>
+                            <a href="#" class="btn btn-primary btn-square rounded-circle nav-fill me-3"><i class="fab fa-twitter text-white"></i></a>
+                            <a href="#" class="btn btn-primary btn-square rounded-circle nav-fill me-0"><i class="fab fa-youtube text-white"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid sticky-top px-0">
+            <div class="position-absolute bg-dark" style="left: 0; top: 0; width: 100%; height: 100%;">
+            </div>
+            <div class="container px-0">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-white py-3 px-4">
+                    <a href="index.html" class="navbar-brand p-0">
+                        <h1 class="text-primary m-0"><i class="fas fa-shield-alt me-3"></i>Komplieye</h1>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto py-0">
+                            <a href="index.html" class="nav-item nav-link">Home</a>
+                            <a href="about.html" class="nav-item nav-link">About</a>
+                            <a href="service.html" class="nav-item nav-link">Solutions</a>
+                            <a href="segments.html" class="nav-item nav-link">Segments</a>
+                            <a href="project.html" class="nav-item nav-link">Features</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Resources</a>
+                                <div class="dropdown-menu m-0">
+                                    <a href="blog.html" class="dropdown-item">Blog</a>
+                                    <a href="case-studies.html" class="dropdown-item">Case Studies</a>
+                                    <a href="use-cases.html" class="dropdown-item active">Use Cases</a>
+                                    <a href="team.html" class="dropdown-item">Our Team</a>
+                                    <a href="testimonial.html" class="dropdown-item">Testimonials</a>
+                                    <a href="faqs.html" class="dropdown-item">FAQs</a>
+                                </div>
+                            </div>
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        </div>
+                        <div class="d-flex align-items-center flex-nowrap pt-xl-0">
+                            <button class="btn btn-primary btn-md-square mx-2" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
+                            <a href="contact.html" class="btn btn-primary rounded-pill text-white py-2 px-4 ms-2 demo-btn" onclick="requestDemo(event, 'Platform Demo')">Request Demo</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- Modal Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h4 class="modal-title mb-0" id="exampleModalLabel">Search by keyword</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input type="search" class="form-control p-3" placeholder="Search compliance topics, audit features..." aria-describedby="search-icon-1">
+                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-breadcrumb">
+            <div class="bg-breadcrumb-single"></div>
+            <div class="container text-center py-5" style="max-width: 900px;">
+                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Real Scenarios, Real Solutions</h4>
+                <p class="text-white mb-4 wow fadeInDown" data-wow-delay="0.2s">Discover how Komplieye seamlessly integrates into real-world operations, making compliance effortless and audit management systematic.</p>
+                <ol class="breadcrumb justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Resources</a></li>
+                    <li class="breadcrumb-item active text-primary">Use Cases</li>
+                </ol>    
+            </div>
+        </div>
+        <!-- Header End -->
+
+        <!-- Use Cases Introduction -->
+        <div class="container-fluid py-5" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 900px;">
+                    <div class="mb-4">
+                        <span class="badge bg-primary-subtle text-primary fs-6 px-4 py-2 rounded-pill">Real-World Applications</span>
+                    </div>
+                    <h4 class="text-primary mb-3">How Banks & NBFCs Use Komplieye</h4>
+                    <h1 class="display-4 mb-4">Versatile Platform, Multiple Solutions</h1>
+                    <p class="mb-0 fs-5 text-muted">Komplieye is a versatile platform that adds value across numerous audit and compliance scenarios in your organization. Here are concrete examples of Komplieye in action:</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Use Case 1: RBI Audit/Inspection -->
+        <div class="container-fluid py-5 bg-white">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-lg-6">
+                        <div class="position-relative">
+                            <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" class="img-fluid rounded-4 shadow-lg" alt="RBI Audit Preparation">
+                            <div class="position-absolute top-0 end-0 bg-primary text-white rounded-circle d-flex align-items-center justify-content-center m-4" style="width: 80px; height: 80px;">
+                                <i class="fas fa-university fa-2x"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="bg-light rounded-4 p-5 shadow-sm">
+                            <h3 class="text-primary mb-4">
+                                <i class="fas fa-shield-alt me-3"></i>
+                                Facing an RBI Audit or Inspection
+                            </h3>
+                            <p class="mb-4 lead">When regulators like the Reserve Bank of India come for an inspection, Komplieye has you fully prepared. All your compliance activities, audit reports, and evidence are organized and readily accessible in the platform.</p>
+                            
+                            <div class="mb-4">
+                                <h6 class="text-primary mb-3">During RBI Inspection:</h6>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2">
+                                        <i class="fas fa-clock text-success me-2"></i>
+                                        <strong>Instant Access:</strong> Need to show your audit trail or status of a past finding? It's available in seconds.
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="fas fa-tasks text-success me-2"></i>
+                                        <strong>Real-time Logging:</strong> Any observations can be immediately logged as tasks and assigned to appropriate owners on the spot.
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="fas fa-upload text-success me-2"></i>
+                                        <strong>Auto-extraction:</strong> Letter of Inspection (LOI) and observation reports can be uploaded directly - Komplieye auto-extracts findings into tasks.
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="alert alert-success border-0 shadow-sm">
+                                <div class="d-flex align-items-center">
+                                    <i class="fas fa-trophy text-success me-3 fa-lg"></i>
+                                    <div>
+                                        <strong>Outcome:</strong> Demonstrate a proactive stance to regulators and ensure no regulatory finding is left unaddressed post-inspection.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Use Case 2: Internal Branch Audits -->
+        <div class="container-fluid py-5 bg-light">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="position-relative">
+                            <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" class="img-fluid rounded-4 shadow-lg" alt="Branch Audit Management">
+                            <div class="position-absolute top-0 start-0 bg-success text-white rounded-circle d-flex align-items-center justify-content-center m-4" style="width: 80px; height: 80px;">
+                                <i class="fas fa-network-wired fa-2x"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="bg-white rounded-4 p-5 shadow-sm">
+                            <h3 class="text-success mb-4">
+                                <i class="fas fa-sitemap me-3"></i>
+                                Streamlining Internal Branch Audits
+                            </h3>
+                            <p class="mb-4 lead">Imagine your internal audit team conducting routine audits across dozens of branches. Komplieye standardizes and streamlines this entire process.</p>
+                            
+                            <div class="mb-4">
+                                <h6 class="text-success mb-3">How It Works:</h6>
+                                <div class="row g-3">
+                                    <div class="col-12">
+                                        <div class="d-flex align-items-start">
+                                            <div class="bg-success text-white rounded-circle me-3 d-flex align-items-center justify-content-center flex-shrink-0" style="width: 32px; height: 32px;">
+                                                <small>1</small>
+                                            </div>
+                                            <div>
+                                                <strong>Centralized Programs:</strong> Audit programs and checklists can be centrally defined and distributed via the platform
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="d-flex align-items-start">
+                                            <div class="bg-success text-white rounded-circle me-3 d-flex align-items-center justify-content-center flex-shrink-0" style="width: 32px; height: 32px;">
+                                                <small>2</small>
+                                            </div>
+                                            <div>
+                                                <strong>Real-time Recording:</strong> Auditors record findings in Komplieye, which branch managers can view in real time
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="d-flex align-items-start">
+                                            <div class="bg-success text-white rounded-circle me-3 d-flex align-items-center justify-content-center flex-shrink-0" style="width: 32px; height: 32px;">
+                                                <small>3</small>
+                                            </div>
+                                            <div>
+                                                <strong>Automated Assignment:</strong> Tasks are automatically assigned to branch managers for corrections
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="d-flex align-items-start">
+                                            <div class="bg-success text-white rounded-circle me-3 d-flex align-items-center justify-content-center flex-shrink-0" style="width: 32px; height: 32px;">
+                                                <small>4</small>
+                                            </div>
+                                            <div>
+                                                <strong>Remote Verification:</strong> Branch managers upload proof of correction, auditors verify remotely
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="alert alert-info border-0 shadow-sm">
+                                <strong>Result:</strong> Auditing dozens of branches becomes as easy as auditing one. Save time and travel costs while improving oversight.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Use Case 3: Regulatory Return Filing -->
+        <div class="container-fluid py-5 bg-white">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="col-lg-6">
+                        <div class="position-relative">
+                            <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" class="img-fluid rounded-4 shadow-lg" alt="Regulatory Filing">
+                            <div class="position-absolute top-0 end-0 bg-warning text-white rounded-circle d-flex align-items-center justify-content-center m-4" style="width: 80px; height: 80px;">
+                                <i class="fas fa-file-alt fa-2x"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="bg-light rounded-4 p-5 shadow-sm">
+                            <h3 class="text-warning mb-4">
+                                <i class="fas fa-calendar-alt me-3"></i>
+                                Regulatory Return Filing: No More Missed Deadlines
+                            </h3>
+                            <p class="mb-4 lead">Banks and NBFCs often juggle numerous regulatory filings – quarterly returns, annual statements, ad-hoc reports – each with strict deadlines.</p>
+                            
+                            <div class="bg-warning bg-opacity-10 p-4 rounded mb-4">
+                                <h6 class="text-warning mb-3">
+                                    <i class="fas fa-lightbulb me-2"></i>
+                                    Example Scenario: RBI Quarterly Return Due in 10 Days
+                                </h6>
+                                <div class="timeline">
+                                    <div class="d-flex mb-3">
+                                        <div class="bg-warning text-white rounded-circle me-3 d-flex align-items-center justify-content-center flex-shrink-0" style="width: 24px; height: 24px;">
+                                            <small>1</small>
+                                        </div>
+                                        <p class="mb-0">Compliance Calendar already has this event scheduled and visible</p>
+                                    </div>
+                                    <div class="d-flex mb-3">
+                                        <div class="bg-warning text-white rounded-circle me-3 d-flex align-items-center justify-content-center flex-shrink-0" style="width: 24px; height: 24px;">
+                                            <small>2</small>
+                                        </div>
+                                        <p class="mb-0">Team members collaborate using predefined templates</p>
+                                    </div>
+                                    <div class="d-flex mb-3">
+                                        <div class="bg-warning text-white rounded-circle me-3 d-flex align-items-center justify-content-center flex-shrink-0" style="width: 24px; height: 24px;">
+                                            <small>3</small>
+                                        </div>
+                                        <p class="mb-0">System assigns sub-tasks to department heads (Treasury, Finance)</p>
+                                    </div>
+                                    <div class="d-flex mb-3">
+                                        <div class="bg-warning text-white rounded-circle me-3 d-flex align-items-center justify-content-center flex-shrink-0" style="width: 24px; height: 24px;">
+                                            <small>4</small>
+                                        </div>
+                                        <p class="mb-0">Automated reminders sent as due date approaches</p>
+                                    </div>
+                                    <div class="d-flex">
+                                        <div class="bg-warning text-white rounded-circle me-3 d-flex align-items-center justify-content-center flex-shrink-0" style="width: 24px; height: 24px;">
+                                            <small>5</small>
+                                        </div>
+                                        <p class="mb-0">One-click generation and API upload to RBI portal</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="alert alert-success border-0 shadow-sm">
+                                <strong>Result:</strong> Zero missed deadlines and stress-free reporting process. No more last-minute scrambling.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Use Case 4: RBI Circular Tracking -->
+        <div class="container-fluid py-5 bg-light">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="col-lg-6 order-lg-2">
+                        <div class="position-relative">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" class="img-fluid rounded-4 shadow-lg" alt="Regulatory Circular Analysis">
+                            <div class="position-absolute top-0 start-0 bg-info text-white rounded-circle d-flex align-items-center justify-content-center m-4" style="width: 80px; height: 80px;">
+                                <i class="fas fa-sync-alt fa-2x"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="bg-white rounded-4 p-5 shadow-sm">
+                            <h3 class="text-info mb-4">
+                                <i class="fas fa-robot me-3"></i>
+                                Tracking New RBI Circulars & Implementation
+                            </h3>
+                            <p class="mb-4 lead">Regulatory changes can come fast and frequently. Komplieye ensures no regulatory change remains just paper knowledge.</p>
+                            
+                            <div class="bg-info bg-opacity-10 p-4 rounded mb-4">
+                                <h6 class="text-info mb-3">
+                                    <i class="fas fa-lightbulb me-2"></i>
+                                    Example: RBI Issues New KYC Circular
+                                </h6>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2">
+                                        <i class="fas fa-robot text-info me-2"></i>
+                                        <strong>AI Analysis:</strong> System analyzes the circular and identifies impact on Customer Onboarding policy
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="fas fa-tasks text-info me-2"></i>
+                                        <strong>Task Generation:</strong> Creates specific tasks - update policy, revise checklists, staff communication
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="fas fa-user-tie text-info me-2"></i>
+                                        <strong>Smart Assignment:</strong> Tasks assigned to appropriate owners with AI-derived instructions
+                                    </li>
+                                    <li class="mb-2">
+                                        <i class="fas fa-chart-line text-info me-2"></i>
+                                        <strong>Progress Tracking:</strong> Dashboard shows implementation status across all circulars
+                                    </li>
+                                    <li class="mb-0">
+                                        <i class="fas fa-check-circle text-info me-2"></i>
+                                        <strong>Closure:</strong> Compliance Officer marks circular as "Implemented" once all actions complete
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="alert alert-success border-0 shadow-sm">
+                                <strong>Outcome:</strong> Swift and systematic operationalization of regulatory updates. Confident compliance with new requirements.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Use Case 5: Audit Finding Management -->
+        <div class="container-fluid py-5 bg-white">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center wow fadeInUp" data-wow-delay="0.9s">
+                    <div class="col-lg-6">
+                        <div class="position-relative">
+                            <img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=400&q=80" class="img-fluid rounded-4 shadow-lg" alt="Audit Finding Resolution">
+                            <div class="position-absolute top-0 end-0 bg-danger text-white rounded-circle d-flex align-items-center justify-content-center m-4" style="width: 80px; height: 80px;">
+                                <i class="fas fa-search-plus fa-2x"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="bg-light rounded-4 p-5 shadow-sm">
+                            <h3 class="text-danger mb-4">
+                                <i class="fas fa-exclamation-triangle me-3"></i>
+                                Closing the Loop on Audit Findings
+                            </h3>
+                            <p class="mb-4 lead">Every audit finding can spawn a compliance task with full tracking to resolution. Nothing gets lost in emails or forgotten in file cabinets.</p>
+                            
+                            <div class="bg-danger bg-opacity-10 p-4 rounded mb-4">
+                                <h6 class="text-danger mb-3">
+                                    <i class="fas fa-lightbulb me-2"></i>
+                                    Example: Control Weakness in Loan Approval Process
+                                </h6>
+                                <div class="timeline">
+                                    <div class="d-flex mb-3">
+                                        <div class="bg-danger text-white rounded-circle me-3 d-flex align-items-center justify-content-center flex-shrink-0" style="width: 24px; height: 24px;">
+                                            <small>1</small>
+                                        </div>
+                                        <p class="mb-0"><strong>Auto-Task Creation:</strong> "Address finding: Missing second-level approval in loan process"</p>
+                                    </div>
+                                    <div class="d-flex mb-3">
+                                        <div class="bg-danger text-white rounded-circle me-3 d-flex align-items-center justify-content-center flex-shrink-0" style="width: 24px; height: 24px;">
+                                            <small>2</small>
+                                        </div>
+                                        <p class="mb-0"><strong>Assignment:</strong> Task assigned to Branch Manager and Credit Head</p>
+                                    </div>
+                                    <div class="d-flex mb-3">
+                                        <div class="bg-danger text-white rounded-circle me-3 d-flex align-items-center justify-content-center flex-shrink-0" style="width: 24px; height: 24px;">
+                                            <small>3</small>
+                                        </div>
+                                        <p class="mb-0"><strong>Action & Evidence:</strong> Responsible parties update task and attach evidence</p>
+                                    </div>
+                                    <div class="d-flex mb-3">
+                                        <div class="bg-danger text-white rounded-circle me-3 d-flex align-items-center justify-content-center flex-shrink-0" style="width: 24px; height: 24px;">
+                                            <small>4</small>
+                                        </div>
+                                        <p class="mb-0"><strong>Review & Closure:</strong> Audit team reviews evidence and closes task</p>
+                                    </div>
+                                    <div class="d-flex">
+                                        <div class="bg-danger text-white rounded-circle me-3 d-flex align-items-center justify-content-center flex-shrink-0" style="width: 24px; height: 24px;">
+                                            <small>5</small>
+                                        </div>
+                                        <p class="mb-0"><strong>Knowledge Base:</strong> Builds repository for similar future issues</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="alert alert-success border-0 shadow-sm">
+                                <strong>Impact:</strong> Closed-loop remediation system ensuring every audit finding is tracked to resolution. Creates culture of continuous improvement.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Trusted by Leading Institutions -->
+        <div class="container-fluid py-5 bg-primary">
+            <div class="container py-5">
+                <div class="row g-4 align-items-center">
+                    <div class="col-lg-8">
+                        <h2 class="text-white mb-4">Trusted by Leading Banks and Financial Institutions</h2>
+                        <p class="text-white mb-4 lead">Komplieye isn't an unproven theory – it's a trusted solution already making a difference in the industry. Leading banks and NBFCs across India rely on Komplieye to strengthen their compliance framework and simplify audits.</p>
+                        <p class="text-white mb-4">We are proud to be the chosen partner for institutions that demand the highest standards of reliability and security.</p>
+                        
+                        <div class="bg-white bg-opacity-10 rounded-4 p-4 mb-4">
+                            <div class="d-flex align-items-start">
+                                <i class="fas fa-quote-left fa-2x text-white me-4 mt-2"></i>
+                                <div>
+                                    <p class="text-white fs-5 mb-3 fst-italic">"Komplieye has significantly streamlined our internal audits and compliance tracking, giving us confidence even under RBI scrutiny."</p>
+                                    <div class="d-flex align-items-center">
+                                        <div class="bg-white rounded-circle me-3" style="width: 40px; height: 40px; display: flex; align-items: center; justify-content: center;">
+                                            <i class="fas fa-user-tie text-primary"></i>
+                                        </div>
+                                        <div>
+                                            <h6 class="text-white mb-0">Chief Audit Officer</h6>
+                                            <small class="text-white-50">Leading Private Bank</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p class="text-white mb-0">When you choose Komplieye, you're in good company – joining a community of forward-looking financial institutions that are leveraging modern technology to solve age-old compliance challenges. <strong>Turn compliance from a headache into a competitive advantage.</strong></p>
+                    </div>
+                    <div class="col-lg-4 text-center">
+                        <div class="bg-white rounded-4 p-4 shadow-lg">
+                            <img src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=200&q=80" class="img-fluid rounded-3 mb-4" alt="Leading Banks Trust Us">
+                            <h5 class="text-primary mb-3">Join Our Success Stories</h5>
+                            <p class="text-muted mb-4">Every client success story drives us to keep innovating and delivering the best.</p>
+                            <div class="d-grid gap-2">
+                                <a href="contact.html" class="btn btn-primary rounded-pill">Join the Community</a>
+                                <small class="text-muted">Trusted by 50+ Financial Institutions</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ready to Get Started CTA -->
+        <div class="container-fluid py-5 bg-dark">
+            <div class="container py-5">
+                <div class="text-center mb-5">
+                    <h2 class="text-white mb-4">Ready to Get Started?</h2>
+                    <h4 class="text-primary mb-4">Get Compliance-Ready Today</h4>
+                </div>
+                <div class="row g-4 align-items-center">
+                    <div class="col-lg-8">
+                        <p class="text-white mb-4 lead">Discover how Komplieye can transform your bank's audit and compliance processes – don't just take our word for it, experience it yourself. We invite you to <strong>Request a Demo</strong> and see the platform in action, tailored to your needs.</p>
+                        <p class="text-white mb-4">Our team will walk you through the features that matter most to you, using real-life scenarios from your organization.</p>
+                        <p class="text-white mb-4">Interested in a deeper conversation? <strong>Talk to Sales</strong> to discuss how Komplieye can fit into your existing systems and address your specific challenges. We're here to answer any questions and provide a personalized roadmap for implementation.</p>
+                        <p class="text-white mb-4">You can also reach out directly to our compliance solution expert, <strong>Sanjay Yadav</strong>, at <a href="mailto:sanjay.yadav@kalolytic.com" class="text-primary text-decoration-underline">sanjay.yadav@kalolytic.com</a> – he'll be happy to understand your requirements and arrange a one-on-one consultation.</p>
+                        <p class="text-white mb-4">Don't wait until the next audit or regulatory deadline crunch. Get in touch now and let us show you how Komplieye can deliver immediate value – from eliminating manual work to giving you unprecedented control and visibility.</p>
+                        <p class="text-white mb-0"><strong>Join the forward-thinking banks and NBFCs that have already streamlined their compliance and audit with Komplieye. Your journey to effortless compliance management starts with a simple demo.</strong></p>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="bg-primary rounded-4 p-5 text-center shadow-lg">
+                            <h5 class="text-white mb-4">Take the First Step</h5>
+                            <div class="d-grid gap-3 mb-4">
+                                <a href="contact.html" class="btn btn-light btn-lg rounded-pill demo-btn" onclick="requestDemo(event, 'Platform Demo')">Request Demo</a>
+                                <a href="contact.html" class="btn btn-outline-light btn-lg rounded-pill sales-btn" onclick="talkToSales(event)">Talk to Sales</a>
+                            </div>
+                            
+                            <div class="border-top border-light border-opacity-25 pt-4">
+                                <h6 class="text-white mb-3">
+                                    <i class="fas fa-user-tie me-2"></i>
+                                    Direct Expert Consultation
+                                </h6>
+                                <div class="bg-white bg-opacity-10 rounded-3 p-3">
+                                    <p class="text-white mb-2"><strong>Sanjay Yadav</strong></p>
+                                    <p class="text-white-50 small mb-2">Compliance Solution Expert</p>
+                                    <a href="mailto:sanjay.yadav@kalolytic.com" class="btn btn-light btn-sm rounded-pill">
+                                        <i class="fas fa-envelope me-2"></i>Contact Direct
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <div class="footer-item">
+                                <h4 class="text-white mb-4"><i class="fas fa-shield-alt me-2"></i>Komplieye</h4>
+                                <p class="mb-3">The most comprehensive audit & compliance platform for Indian financial institutions. Built specifically for banks and NBFCs.</p>
+                                <div class="position-relative mx-auto rounded-pill">
+                                    <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="email" placeholder="Enter your email">
+                                    <button type="button" class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">Subscribe</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Quick Links</h4>
+                            <a href="index.html"><i class="fas fa-angle-right me-2"></i> Home</a>
+                            <a href="about.html"><i class="fas fa-angle-right me-2"></i> Why Komplieye</a>
+                            <a href="project.html"><i class="fas fa-angle-right me-2"></i> Features</a>
+                            <a href="use-cases.html"><i class="fas fa-angle-right me-2"></i> Use Cases</a>
+                            <a href="about.html"><i class="fas fa-angle-right me-2"></i> About Us</a>
+                            <a href="contact.html"><i class="fas fa-angle-right me-2"></i> Contact</a>
+                            <a href="contact.html"><i class="fas fa-angle-right me-2"></i> Support</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Security & Compliance</h4>
+                            <p class="text-light mb-3">Enterprise-grade data security with encryption and access control. Our platform adheres to ISO 27001 standards and RBI IT guidelines.</p>
+                            <div class="mb-3">
+                                <h6 class="text-primary mb-2">Certifications:</h6>
+                                <small class="text-light d-block"><i class="fas fa-certificate me-2"></i>ISO 27001:2013 Certified</small>
+                                <small class="text-light d-block"><i class="fas fa-shield-alt me-2"></i>CERT-In Compliant</small>
+                                <small class="text-light d-block"><i class="fas fa-lock me-2"></i>GDPR Ready</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Contact Info</h4>
+                            <div class="mb-3">
+                                <h6 class="text-primary mb-2">Kalolytic Solutions Pvt. Ltd.</h6>
+                                <a href="https://maps.google.com/?q=Noida,India" target="_blank" class="text-light"><i class="fa fa-map-marker-alt me-2"></i> Noida, India</a>
+                            </div>
+                            <a href="mailto:sanjay.yadav@kalolytic.com" class="text-light mb-2"><i class="fas fa-envelope me-2"></i> sanjay.yadav@kalolytic.com</a>
+                            <a href="tel:+919876543210" class="text-light mb-3"><i class="fas fa-phone me-2"></i> +91-9876543210</a>
+                            <div class="d-flex align-items-center">
+                                <a class="btn btn-light btn-md-square me-2" href="https://linkedin.com/company/komplieye" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-light btn-md-square me-2" href="https://twitter.com/komplieye" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-light btn-md-square me-2" href="https://youtube.com/komplieye" target="_blank"><i class="fab fa-youtube"></i></a>
+                                <a class="btn btn-light btn-md-square me-0" href="https://kalolytic.com" target="_blank"><i class="fas fa-globe"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-md-0">
+                        <span class="text-body"><i class="fas fa-copyright text-light me-2"></i>© 2025 Komplieye designed by Satyam Suman.</span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end text-body">
+                        <a class="border-bottom text-primary" href="contact.html">Privacy Policy</a> | <a class="border-bottom text-primary" href="contact.html">Terms of Service</a> | <a class="border-bottom text-primary" href="contact.html">Data Protection</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+         <!-- Floating Social Media Icons -->
+        <div class="floating-social">
+            <a href="https://wa.me/919876543210" class="whatsapp" target="_blank" title="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://t.me/komplieye" class="telegram" target="_blank" title="Telegram">
+                <i class="fab fa-telegram-plane"></i>
+            </a>
+        </div>
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/interactive-buttons.js"></script>
+    </body>
+
+</html>

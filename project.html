@@ -1,0 +1,808 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Features - Komplieye Advanced Banking Compliance Platform</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="banking compliance features, audit management features, RBI compliance tools" name="keywords">
+        <meta content="Explore Komplieye's advanced features for banking compliance, audit management, and regulatory reporting with AI-powered intelligence." name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div class="container-fluid topbar px-0 d-none d-lg-block">
+            <div class="container px-0">
+                <div class="row gx-0 align-items-center" style="height: 45px;">
+                    <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+                        <div class="d-flex flex-wrap">
+                            <a href="#" class="text-muted me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Noida, India</a>
+                            <a href="#" class="text-muted me-4"><i class="fas fa-phone-alt text-primary me-2"></i>+91-9876543210</a>
+                            <a href="#" class="text-muted me-0"><i class="fas fa-envelope text-primary me-2"></i> sanjay.yadav@kalolytic.com </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 text-center text-lg-end">
+                        <div class="d-flex align-items-center justify-content-end">
+                            <a href="https://www.linkedin.com/" class="btn btn-primary btn-square rounded-circle nav-fill me-3"><i class="fab fa-linkedin-in text-white"></i></a>
+                            <a href="https://twitter.com/" class="btn btn-primary btn-square rounded-circle nav-fill me-3"><i class="fab fa-twitter text-white"></i></a>
+                            <a href="https://www.youtube.com/" class="btn btn-primary btn-square rounded-circle nav-fill me-0"><i class="fab fa-youtube text-white"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid sticky-top px-0">
+            <div class="position-absolute bg-dark" style="left: 0; top: 0; width: 100%; height: 100%;">
+            </div>
+            <div class="container px-0">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-white py-3 px-4">
+                    <a href="index.html" class="navbar-brand p-0">
+                        <h1 class="text-primary m-0"><i class="fas fa-shield-alt me-3"></i>Komplieye</h1>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto py-0">
+                            <a href="index.html" class="nav-item nav-link">Home</a>
+                            <a href="about.html" class="nav-item nav-link">About</a>
+                            <a href="service.html" class="nav-item nav-link">Solutions</a>
+                            <a href="segments.html" class="nav-item nav-link">Segments</a>
+                            <a href="project.html" class="nav-item nav-link active">Features</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Resources</a>
+                                <div class="dropdown-menu m-0">
+                                    <a href="blog.html" class="dropdown-item">Blog</a>
+                                    <a href="case-studies.html" class="dropdown-item">Case Studies</a>
+                                    <a href="use-cases.html" class="dropdown-item">Use Cases</a>
+                                    <a href="team.html" class="dropdown-item">Our Team</a>
+                                    <a href="testimonial.html" class="dropdown-item">Testimonials</a>
+                                    <a href="faqs.html" class="dropdown-item">FAQs</a>
+                                </div>
+                            </div>
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        </div>
+                        <div class="d-flex align-items-center flex-nowrap pt-xl-0">
+                            <button class="btn btn-primary btn-md-square mx-2" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
+                            <a href="contact.html" class="btn btn-primary rounded-pill text-white py-2 px-4 ms-2 demo-btn" onclick="requestDemo(event, 'Platform Demo')">Request Demo</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- Modal Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h4 class="modal-title mb-0" id="exampleModalLabel">Search by keyword</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input type="search" class="form-control p-3" placeholder="Search features, compliance tools..." aria-describedby="search-icon-1">
+                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search End -->
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-breadcrumb">
+            <div class="bg-breadcrumb-single"></div>
+            <div class="container text-center py-5" style="max-width: 900px;">
+                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Platform Features</h4>
+                <ol class="breadcrumb justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active text-primary">Features</li>
+                </ol>    
+            </div>
+        </div>
+        <!-- Header End -->
+
+        <!-- Features Overview Start -->
+        <div class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 900px;">
+                    <h4 class="text-primary">Advanced Platform Capabilities</h4>
+                    <h1 class="display-4">Cutting-Edge Features for Modern Banking Compliance</h1>
+                    <p class="mb-0">Explore the comprehensive feature set that makes Komplieye the most advanced audit and compliance platform for Indian banks and NBFCs.</p>
+                </div>
+
+                <!-- Core Features Grid -->
+                <div class="row g-4 mb-5">
+                    <!-- Real-Time Monitoring -->
+                    <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
+                        <div class="feature-item bg-light rounded-4 p-4 h-100">
+                            <div class="row g-4 align-items-center">
+                                <div class="col-md-5">
+                                    <img src="features/com.jpeg" class="img-fluid rounded w-100" alt="Real-Time Monitoring Dashboard">
+                                </div>
+                                <div class="col-md-7">
+                                    <i class="fas fa-eye fa-3x text-primary mb-3"></i>
+                                    <h4 class="mb-3">Real-Time Monitoring</h4>
+                                    <p class="mb-3">Continuous compliance monitoring across all branches and departments with instant alerts, automated risk detection, and comprehensive oversight capabilities.</p>
+                                    <button class="btn btn-primary rounded-pill" onclick="toggleFeatureDetails('monitoring-details', this)">View Details</button>
+                                </div>
+                            </div>
+                            <div id="monitoring-details" class="mt-4 d-none">
+                                <div class="border-top pt-4">
+                                    <h6 class="text-primary mb-3">Key Capabilities:</h6>
+                                    <ul class="list-unstyled">
+                                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i>24/7 automated monitoring across all touchpoints</li>
+                                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Instant email and SMS alerts for compliance violations</li>
+                                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Color-coded dashboards for quick status assessment</li>
+                                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Branch-wise and department-wise monitoring</li>
+                                        <li class="mb-0"><i class="fas fa-check text-success me-2"></i>Escalation workflows for critical issues</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- AI-Powered Analysis -->
+                    <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
+                        <div class="feature-item bg-light rounded-4 p-4 h-100">
+                            <div class="row g-4 align-items-center">
+                                <div class="col-md-5">
+                                    <img src="features/ai.png" class="img-fluid rounded w-100" alt="AI-Powered Analysis">
+                                </div>
+                                <div class="col-md-7">
+                                    <i class="fas fa-robot fa-3x text-primary mb-3"></i>
+                                    <h4 class="mb-3">AI-Powered Analysis</h4>
+                                    <p class="mb-3">Intelligent document analysis and automated compliance control generation with machine learning algorithms that adapt to regulatory changes and industry best practices.</p>
+                                    <button class="btn btn-primary rounded-pill" onclick="toggleFeatureDetails('ai-details', this)">View Details</button>
+                                </div>
+                            </div>
+                            <div id="ai-details" class="mt-4 d-none">
+                                <div class="border-top pt-4">
+                                    <h6 class="text-primary mb-3">AI Intelligence Features:</h6>
+                                    <ul class="list-unstyled">
+                                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Natural Language Processing for RBI circulars</li>
+                                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Automated compliance control generation</li>
+                                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Machine learning for risk pattern recognition</li>
+                                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Predictive compliance analytics</li>
+                                        <li class="mb-0"><i class="fas fa-check text-success me-2"></i>Smart document classification and tagging</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Automated Workflows -->
+                    <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.5s">
+                        <div class="feature-item bg-light rounded-4 p-4 h-100">
+                            <div class="row g-4 align-items-center">
+                                <div class="col-md-5">
+                                    <img src="features/r.png" class="img-fluid rounded w-100" alt="Automated Workflows">
+                                </div>
+                                <div class="col-md-7">
+                                    <i class="fas fa-cogs fa-3x text-primary mb-3"></i>
+                                    <h4 class="mb-3">Automated Workflows</h4>
+                                    <p class="mb-3">End-to-end audit and compliance process automation with customizable workflows, approval chains, and seamless integration with existing banking systems.</p>
+                                    <button class="btn btn-primary rounded-pill" onclick="toggleFeatureDetails('workflow-details', this)">View Details</button>
+                                </div>
+                            </div>
+                            <div id="workflow-details" class="mt-4 d-none">
+                                <div class="border-top pt-4">
+                                    <h6 class="text-primary mb-3">Workflow Automation:</h6>
+                                    <ul class="list-unstyled">
+                                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Drag-and-drop workflow designer</li>
+                                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Multi-level approval chains</li>
+                                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Conditional logic and branching</li>
+                                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Integration with core banking systems</li>
+                                        <li class="mb-0"><i class="fas fa-check text-success me-2"></i>Automated task assignments and notifications</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Document Processing -->
+                    <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.7s">
+                        <div class="feature-item bg-light rounded-4 p-4 h-100">
+                            <div class="row g-4 align-items-center">
+                                <div class="col-md-5">
+                                    <img src="features/data.png" class="img-fluid rounded w-100" alt="Intelligent Document Processing">
+                                </div>
+                                <div class="col-md-7">
+                                    <i class="fas fa-brain fa-3x text-primary mb-3"></i>
+                                    <h4 class="mb-3">Intelligent Document Processing</h4>
+                                    <p class="mb-3">Advanced OCR and NLP capabilities for automatic extraction of key compliance data from regulatory documents, circulars, and policy updates with high accuracy.</p>
+                                    <button class="btn btn-primary rounded-pill" onclick="toggleFeatureDetails('document-details', this)">View Details</button>
+                                </div>
+                            </div>
+                            <div id="document-details" class="mt-4 d-none">
+                                <div class="border-top pt-4">
+                                    <h6 class="text-primary mb-3">Document Intelligence:</h6>
+                                    <ul class="list-unstyled">
+                                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i>OCR with 99%+ accuracy for printed documents</li>
+                                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Multi-language support including Hindi</li>
+                                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Automated data extraction and validation</li>
+                                        <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Smart form recognition and processing</li>
+                                        <li class="mb-0"><i class="fas fa-check text-success me-2"></i>Version control and change tracking</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Additional Features -->
+                <div class="row g-4 mb-5">
+                    <!-- Policy Intelligence Hub -->
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="feature-card bg-primary text-white rounded-4 p-4 h-100 text-center">
+                            <img src="features/p.avif" class="img-fluid rounded mb-4" alt="Policy Intelligence Hub">
+                            <i class="fas fa-mobile-alt fa-3x mb-3"></i>
+                            <h4 class="text-white mb-3">Policy Intelligence Hub</h4>
+                            <p class="text-white mb-4">Centralized policy management with version control, automated distribution, acknowledgment tracking, and real-time updates across all organizational levels.</p>
+                            <button class="btn btn-light rounded-pill" onclick="toggleFeatureDetails('policy-details', this)">Learn More</button>
+                            <div id="policy-details" class="mt-4 d-none text-start">
+                                <h6 class="text-white mb-3">Policy Management Features:</h6>
+                                <ul class="list-unstyled text-white">
+                                    <li class="mb-2"><i class="fas fa-check me-2"></i>Centralized policy repository</li>
+                                    <li class="mb-2"><i class="fas fa-check me-2"></i>Automated policy distribution</li>
+                                    <li class="mb-2"><i class="fas fa-check me-2"></i>Digital acknowledgment tracking</li>
+                                    <li class="mb-0"><i class="fas fa-check me-2"></i>Version control and audit trails</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Risk Assessment -->
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="feature-card bg-dark text-white rounded-4 p-4 h-100 text-center">
+                            <img src="features/r.png" class="img-fluid rounded mb-4" alt="Risk Assessment">
+                            <i class="fas fa-chart-network fa-3x mb-3"></i>
+                            <h4 class="text-white mb-3">Automated Risk Assessments</h4>
+                            <p class="text-white mb-4">Comprehensive risk evaluation with predictive modeling, scenario analysis, and automated scoring mechanisms for proactive risk management.</p>
+                            <button class="btn btn-primary rounded-pill" onclick="toggleFeatureDetails('risk-details', this)">Learn More</button>
+                            <div id="risk-details" class="mt-4 d-none text-start">
+                                <h6 class="text-white mb-3">Risk Management Capabilities:</h6>
+                                <ul class="list-unstyled text-white">
+                                    <li class="mb-2"><i class="fas fa-check me-2"></i>Automated risk scoring algorithms</li>
+                                    <li class="mb-2"><i class="fas fa-check me-2"></i>Predictive risk modeling</li>
+                                    <li class="mb-2"><i class="fas fa-check me-2"></i>Scenario analysis and stress testing</li>
+                                    <li class="mb-0"><i class="fas fa-check me-2"></i>Risk heat maps and visualizations</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Compliance Calendar -->
+                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="feature-card bg-success text-white rounded-4 p-4 h-100 text-center">
+                            <img src="features/c.svg" class="img-fluid rounded mb-4" alt="Compliance Calendar">
+                            <i class="fas fa-calendar-check fa-3x mb-3"></i>
+                            <h4 class="text-white mb-3">Compliance Calendar</h4>
+                            <p class="text-white mb-4">Centralized compliance calendar with color-coded status tracking and automated reminders for all regulatory activities and deadlines.</p>
+                            <button class="btn btn-light rounded-pill" onclick="toggleFeatureDetails('calendar-details', this)">Learn More</button>
+                            <div id="calendar-details" class="mt-4 d-none text-start">
+                                <h6 class="text-white mb-3">Calendar Features:</h6>
+                                <ul class="list-unstyled text-white">
+                                    <li class="mb-2"><i class="fas fa-check me-2"></i>Color-coded status indicators</li>
+                                    <li class="mb-2"><i class="fas fa-check me-2"></i>Recurring task automation</li>
+                                    <li class="mb-2"><i class="fas fa-check me-2"></i>Email/SMS alerts</li>
+                                    <li class="mb-0"><i class="fas fa-check me-2"></i>Proactive deadline management</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Enterprise Features -->
+                <div class="bg-primary rounded-4 p-5 mb-5">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-lg-8">
+                            <h3 class="text-white mb-4">Enterprise-Grade Security & Performance</h3>
+                            <div class="row g-4">
+                                <div class="col-md-6">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <i class="fas fa-shield-alt fa-2x text-white me-3"></i>
+                                        <div>
+                                            <h6 class="text-white mb-1">Enterprise Security</h6>
+                                            <small class="text-white-50">Robust security and scalable architecture designed for large banking environments with role-based access and audit trails.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <i class="fas fa-university fa-2x text-white me-3"></i>
+                                        <div>
+                                            <h6 class="text-white mb-1">Banking-Specific Design</h6>
+                                            <small class="text-white-50">Pre-configured with RBI guidelines and banking best practices. Ready-to-use templates from day one.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <i class="fas fa-chart-line fa-2x text-white me-3"></i>
+                                        <div>
+                                            <h6 class="text-white mb-1">Measurable Outcomes</h6>
+                                            <small class="text-white-50">Deliver tangible results: 80% time savings in audits, zero missed filings, stronger compliance culture.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="d-flex align-items-center mb-3">
+                                        <i class="fas fa-sync-alt fa-2x text-white me-3"></i>
+                                        <div>
+                                            <h6 class="text-white mb-1">Agile Adaptation</h6>
+                                            <small class="text-white-50">Quickly adapt to new regulations with automated updates and flexible configuration options.</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 text-center">
+                            <img src="/features/1.jpeg" class="img-fluid rectangle" alt="Enterprise Security">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Features End -->
+
+        <!-- CTA Section Start -->
+        <div class="container-fluid bg-dark py-5">
+            <div class="container py-5">
+                <div class="row g-4 align-items-center">
+                    <div class="col-lg-8">
+                        <h2 class="text-white mb-4">Ready to Experience These Advanced Features?</h2>
+                        <h4 class="text-white mb-4">See Komplieye in Action</h4>
+                        <p class="text-white mb-4">Don't just read about our features - experience them firsthand. Our comprehensive demo will show you exactly how Komplieye can transform your audit and compliance operations.</p>
+                        <p class="text-white mb-4">Schedule a personalized demonstration with our experts and see how these powerful features can be customized for your specific banking environment.</p>
+                    </div>
+                    <div class="col-lg-4 text-center">
+                        <div class="bg-white rounded-4 p-4 shadow-lg">
+                            <h5 class="text-primary mb-4">Get Started Today</h5>
+                            <div class="d-grid gap-3">
+                                <a href="contact.html" class="btn btn-primary btn-lg rounded-pill">Request Live Demo</a>
+                                <a href="contact.html" class="btn btn-outline-primary btn-lg rounded-pill">Talk to Experts</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- CTA Section End -->
+
+       
+
+
+        <!-- Role-Based Access Control Start -->
+        <div class="container-fluid py-5 bg-light">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 900px;">
+                    <h4 class="text-primary">Role-Based Access Control</h4>
+                    <h1 class="display-4">Tailored Experience for Every User</h1>
+                    <p class="mb-4">Komplieye delivers role-specific dashboards and capabilities designed for each stakeholder in your audit and compliance ecosystem.</p>
+                </div>
+
+                <!-- Role Access Matrix -->
+                <div class="row g-4 mb-5">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="feature-card text-center p-4 h-100 bg-white rounded-4 shadow-sm">
+                            <div class="feature-icon mx-auto mb-4">
+                                <i class="fas fa-user-shield text-primary"></i>
+                            </div>
+                            <h5 class="mb-3">Auditors & Assistant Auditors</h5>
+                            <p class="text-muted mb-4">Dedicated workspace with pre-built checklists, real-time progress tracking, and streamlined audit workflows.</p>
+                            <button class="btn btn-primary rounded-pill" onclick="toggleFeatureDetails('auditor-access', this)">View Access Rights</button>
+                            <div id="auditor-access" class="mt-4 d-none text-start">
+                                <h6 class="text-primary mb-3">Access Capabilities:</h6>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Plan and execute audits</li>
+                                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Assign sections to assistants</li>
+                                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Log observations and evidence</li>
+                                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Submit audit results</li>
+                                    <li class="mb-0"><i class="fas fa-times text-danger me-2"></i>Cannot access other branch audits</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="feature-card text-center p-4 h-100 bg-white rounded-4 shadow-sm">
+                            <div class="feature-icon mx-auto mb-4">
+                                <i class="fas fa-clipboard-check text-success"></i>
+                            </div>
+                            <h5 class="mb-3">Reviewers & Audit Managers</h5>
+                            <p class="text-muted mb-4">Oversight dashboard with comprehensive review capabilities and quality control features.</p>
+                            <button class="btn btn-success rounded-pill" onclick="toggleFeatureDetails('reviewer-access', this)">View Access Rights</button>
+                            <div id="reviewer-access" class="mt-4 d-none text-start">
+                                <h6 class="text-success mb-3">Access Capabilities:</h6>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Review all audit plans and reports</li>
+                                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Approve, reject, or hold reports</li>
+                                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Add comments and findings</li>
+                                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Monitor outstanding tasks</li>
+                                    <li class="mb-0"><i class="fas fa-check text-success me-2"></i>Ensure audit quality and consistency</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="feature-card text-center p-4 h-100 bg-white rounded-4 shadow-sm">
+                            <div class="feature-icon mx-auto mb-4">
+                                <i class="fas fa-shield-alt text-info"></i>
+                            </div>
+                            <h5 class="mb-3">Compliance Officers</h5>
+                            <p class="text-muted mb-4">Command-center control with holistic view of all compliance obligations and real-time monitoring.</p>
+                            <button class="btn btn-info rounded-pill" onclick="toggleFeatureDetails('compliance-access', this)">View Access Rights</button>
+                            <div id="compliance-access" class="mt-4 d-none text-start">
+                                <h6 class="text-info mb-3">Access Capabilities:</h6>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>View all compliance obligations</li>
+                                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Monitor regulatory deadlines</li>
+                                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Assign tasks across organization</li>
+                                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Access AI regulatory insights</li>
+                                    <li class="mb-0"><i class="fas fa-check text-success me-2"></i>Generate compliance reports</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="feature-card text-center p-4 h-100 bg-white rounded-4 shadow-sm">
+                            <div class="feature-icon mx-auto mb-4">
+                                <i class="fas fa-users text-warning"></i>
+                            </div>
+                            <h5 class="mb-3">Branch Managers</h5>
+                            <p class="text-muted mb-4">Simplified interface for task execution and audit response with clear accountability.</p>
+                            <button class="btn btn-warning rounded-pill" onclick="toggleFeatureDetails('branch-access', this)">View Access Rights</button>
+                            <div id="branch-access" class="mt-4 d-none text-start">
+                                <h6 class="text-warning mb-3">Access Capabilities:</h6>
+                                <ul class="list-unstyled">
+                                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>View assigned branch tasks</li>
+                                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Update task status and comments</li>
+                                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Upload evidence and documents</li>
+                                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Receive deadline reminders</li>
+                                    <li class="mb-0"><i class="fas fa-times text-danger me-2"></i>Cannot access other branch data</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
+                        <div class="feature-card text-center p-4 h-100 bg-dark text-white rounded-4 shadow-sm">
+                            <div class="feature-icon mx-auto mb-4">
+                                <i class="fas fa-cogs text-white"></i>
+                            </div>
+                            <h5 class="text-white mb-3">System Administrators</h5>
+                            <p class="text-white mb-4">Complete platform control with user management, configuration, and system oversight.</p>
+                            <button class="btn btn-light rounded-pill" onclick="toggleFeatureDetails('admin-access', this)">View Access Rights</button>
+                            <div id="admin-access" class="mt-4 d-none text-start">
+                                <h6 class="text-white mb-3">Access Capabilities:</h6>
+                                <ul class="list-unstyled text-white">
+                                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Manage all user accounts</li>
+                                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Configure role-based permissions</li>
+                                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Set up master data and workflows</li>
+                                    <li class="mb-2"><i class="fas fa-check text-success me-2"></i>Monitor system logs and security</li>
+                                    <li class="mb-0"><i class="fas fa-check text-success me-2"></i>Manage integrations and settings</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Role-Based Access Control End -->
+
+        <!-- AI & Automation Features Start -->
+        <div class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 900px;">
+                    <h4 class="text-primary">AI & Automation</h4>
+                    <h1 class="display-4">Intelligent Technology at Work</h1>
+                    <p class="mb-4">Experience next-generation compliance management with AI-powered insights and intelligent automation that transforms how you handle regulatory requirements.</p>
+                </div>
+
+                <!-- AI Features Grid -->
+                <div class="row g-4">
+                    <!-- AI Regulatory Management -->
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="feature-card bg-gradient-primary text-white p-5 rounded-4 h-100">
+                            <div class="text-center mb-4">
+                                <img src="/features/ai.png" class="img-fluid rounded mb-3" alt="AI Regulatory Analysis" style="height: 350px; object-fit: cover; width: 400%; border: 2px solid rgba(255,255,255,0.3);">
+                                <i class="fas fa-brain fa-3x text-white mb-3"></i>
+                            </div>
+                            <h4 class="text-white mb-3">AI-Powered Regulatory Analysis</h4>
+                            <p class="text-white mb-4">Our AI Compliance Circular Manager automatically analyzes new RBI circulars and regulatory updates, providing instant impact analysis and actionable insights.</p>
+                            <button class="btn btn-light rounded-pill w-100" onclick="toggleFeatureDetails('ai-regulatory', this)">Explore AI Features</button>
+                            <div id="ai-regulatory" class="mt-4 d-none text-start">
+                                <h6 class="text-white mb-3">AI Capabilities:</h6>
+                                <ul class="list-unstyled text-white">
+                                    <li class="mb-2"><i class="fas fa-robot me-2"></i>Automatic document scanning and analysis</li>
+                                    <li class="mb-2"><i class="fas fa-search me-2"></i>Impact identification on compliance areas</li>
+                                    <li class="mb-2"><i class="fas fa-lightbulb me-2"></i>Smart recommendations for control updates</li>
+                                    <li class="mb-2"><i class="fas fa-chart-line me-2"></i>Predictive compliance risk assessment</li>
+                                    <li class="mb-0"><i class="fas fa-language me-2"></i>Natural language processing for regulations</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Smart Document Processing -->
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="feature-card bg-success text-white p-5 rounded-4 h-100">
+                            <div class="text-center mb-4">
+                                <img src="/features/data.png" class="img-fluid rounded mb-3" alt="Document Processing" style="height: 350px; object-fit: cover; width: 400%; border: 2px solid rgba(255,255,255,0.3);">
+                                <i class="fas fa-file-alt fa-3x text-white mb-3"></i>
+                            </div>
+                            <h4 class="text-white mb-3">Smart File Processing Engine</h4>
+                            <p class="text-white mb-4">Intelligent document processing automatically extracts findings from inspection reports, LOIs, and regulatory documents, converting them into actionable tasks.</p>
+                            <button class="btn btn-light rounded-pill w-100" onclick="toggleFeatureDetails('ai-processing', this)">View Processing Power</button>
+                            <div id="ai-processing" class="mt-4 d-none text-start">
+                                <h6 class="text-white mb-3">Processing Features:</h6>
+                                <ul class="list-unstyled text-white">
+                                    <li class="mb-2"><i class="fas fa-upload me-2"></i>Auto-ingest PDF/Word documents</li>
+                                    <li class="mb-2"><i class="fas fa-eye me-2"></i>Optical Character Recognition (OCR)</li>
+                                    <li class="mb-2"><i class="fas fa-tasks me-2"></i>Structured task generation</li>
+                                    <li class="mb-2"><i class="fas fa-database me-2"></i>API integration with core systems</li>
+                                    <li class="mb-0"><i class="fas fa-clock me-2"></i>Real-time data extraction</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Predictive Analytics -->
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="feature-card bg-dark text-white p-5 rounded-4 h-100">
+                            <div class="text-center mb-4">
+                                <img src="/features/images.jpeg" class="img-fluid rounded mb-3" alt="Predictive Analytics" style="height: 350px; object-fit: cover; width: 164%; border: 2px solid rgba(255,255,255,0.3);">
+                                <i class="fas fa-chart-line fa-3x text-white mb-3"></i>
+                            </div>
+                            <h4 class="text-white mb-3">Intelligent Risk Insights</h4>
+                            <p class="text-white mb-4">Machine learning algorithms analyze patterns from audit and compliance data to provide predictive insights and proactive risk management recommendations.</p>
+                            <button class="btn btn-light rounded-pill w-100" onclick="toggleFeatureDetails('ai-insights', this)">Discover Insights</button>
+                            <div id="ai-insights" class="mt-4 d-none text-start">
+                                <h6 class="text-white mb-3">Intelligence Features:</h6>
+                                <ul class="list-unstyled text-white">
+                                    <li class="mb-2"><i class="fas fa-pattern me-2"></i>Pattern recognition across branches</li>
+                                    <li class="mb-2"><i class="fas fa-exclamation-triangle me-2"></i>Early risk detection</li>
+                                    <li class="mb-2"><i class="fas fa-calendar-alt me-2"></i>Risk-based audit scheduling</li>
+                                    <li class="mb-2"><i class="fas fa-trending-up me-2"></i>Compliance trend analysis</li>
+                                    <li class="mb-0"><i class="fas fa-shield-alt me-2"></i>Proactive risk mitigation</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Workflow Automation -->
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="feature-card bg-info text-white p-5 rounded-4 h-100">
+                            <div class="text-center mb-4">
+                                <img src="/features/work.png" class="img-fluid rounded mb-3" alt="Workflow Automation" style="height: 350px; object-fit: cover; width: 170%; border: 2px solid rgba(255,255,255,0.3);">
+                                <i class="fas fa-cogs fa-3x text-white mb-3"></i>
+                            </div>
+                            <h4 class="text-white mb-3">Smart Workflow Automation</h4>
+                            <p class="text-white mb-4">Intelligent automation orchestrates your entire compliance workflow, routing tasks, sending notifications, and ensuring nothing falls through the cracks.</p>
+                            <button class="btn btn-light rounded-pill w-100" onclick="toggleFeatureDetails('ai-workflow', this)">See Automation</button>
+                            <div id="ai-workflow" class="mt-4 d-none text-start">
+                                <h6 class="text-white mb-3">Automation Features:</h6>
+                                <ul class="list-unstyled text-white">
+                                    <li class="mb-2"><i class="fas fa-route me-2"></i>Intelligent task routing</li>
+                                    <li class="mb-2"><i class="fas fa-bell me-2"></i>Automated notifications (Email/SMS)</li>
+                                    <li class="mb-2"><i class="fas fa-level-up-alt me-2"></i>Smart escalation rules</li>
+                                    <li class="mb-2"><i class="fas fa-history me-2"></i>Complete audit trail logging</li>
+                                    <li class="mb-0"><i class="fas fa-settings me-2"></i>Configurable business rules</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AI Impact Summary -->
+                <div class="row mt-5">
+                    <div class="col-lg-12 wow fadeInUp" data-wow-delay="0.9s">
+                        <div class="bg-light rounded-4 p-5 text-center">
+                            <h3 class="text-primary mb-4">Transform Your Compliance with AI</h3>
+                            <p class="mb-4">AI and automation free your skilled staff from mundane tasks and amplify their ability to manage risk effectively. With Komplieye, you're leveraging cutting-edge technology to create a smarter, more resilient compliance function.</p>
+                            
+                            <div class="row g-4 mb-4">
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="text-center p-3 bg-white rounded">
+                                        <i class="fas fa-clock fa-2x text-primary mb-2"></i>
+                                        <h6>80% Time Savings</h6>
+                                        <small>Automated data processing and analysis</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="text-center p-3 bg-white rounded">
+                                        <i class="fas fa-eye fa-2x text-success mb-2"></i>
+                                        <h6>24/7 Monitoring</h6>
+                                        <small>Continuous compliance oversight</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="text-center p-3 bg-white rounded">
+                                        <i class="fas fa-chart-line fa-2x text-info mb-2"></i>
+                                        <h6>Predictive Insights</h6>
+                                        <small>Proactive risk identification</small>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-3">
+                                    <div class="text-center p-3 bg-white rounded">
+                                        <i class="fas fa-shield-alt fa-2x text-warning mb-2"></i>
+                                        <h6>Zero Missed Deadlines</h6>
+                                        <small>Automated deadline management</small>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d-grid-mobile d-md-flex justify-content-center gap-3">
+                                <a href="contact.html" class="btn btn-primary rounded-pill py-3 px-5">Experience AI Demo</a>
+                                <a href="use-cases.html" class="btn btn-outline-primary rounded-pill py-3 px-5">View Use Cases</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- Footer Start -->
+        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <div class="footer-item">
+                                <h4 class="text-white mb-4"><i class="fas fa-shield-alt me-2"></i>Komplieye</h4>
+                                <p class="mb-3">The most comprehensive audit & compliance platform for Indian financial institutions. Built specifically for banks and NBFCs.</p>
+                                <div class="position-relative mx-auto rounded-pill">
+                                    <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="email" placeholder="Enter your email">
+                                    <button type="button" class="btn btn-primary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">Subscribe</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Quick Links</h4>
+                            <a href="index.html"><i class="fas fa-angle-right me-2"></i> Home</a>
+                            <a href="about.html"><i class="fas fa-angle-right me-2"></i> About</a>
+                            <a href="service.html"><i class="fas fa-angle-right me-2"></i> Solutions</a>
+                            <a href="project.html"><i class="fas fa-angle-right me-2"></i> Features</a>
+                            
+                            <a href="contact.html"><i class="fas fa-angle-right me-2"></i> Contact</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Security & Compliance</h4>
+                            <p class="text-light mb-3">Enterprise-grade data security with encryption and access control. Our platform adheres to ISO 27001 standards and RBI IT guidelines.</p>
+                            <div class="mb-3">
+                                <h6 class="text-primary mb-2">Certifications:</h6>
+                                <small class="text-light d-block"><i class="fas fa-certificate me-2"></i>ISO 27001:2013 Certified</small>
+                                <small class="text-light d-block"><i class="fas fa-shield-alt me-2"></i>CERT-In Compliant</small>
+                                <small class="text-light d-block"><i class="fas fa-lock me-2"></i>GDPR Ready</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="text-white mb-4">Contact Info</h4>
+                            <div class="mb-3">
+                                <h6 class="text-primary mb-2">Kalolytic Solutions Pvt. Ltd.</h6>
+                                <a href="https://maps.google.com/?q=Noida,India" target="_blank" class="text-light"><i class="fa fa-map-marker-alt me-2"></i> Noida, India</a>
+                            </div>
+                            <a href="mailto:sanjay.yadav@kalolytic.com" class="text-light mb-2"><i class="fas fa-envelope me-2"></i> sanjay.yadav@kalolytic.com</a>
+                            <a href="tel:+919876543210" class="text-light mb-3"><i class="fas fa-phone me-2"></i> +91-9876543210</a>
+                            <div class="d-flex align-items-center">
+                                <a class="btn btn-light btn-md-square me-2" href="https://linkedin.com/company/komplieye" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                <a class="btn btn-light btn-md-square me-2" href="https://twitter.com/komplieye" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-light btn-md-square me-2" href="https://youtube.com/komplieye" target="_blank"><i class="fab fa-youtube"></i></a>
+                                <a class="btn btn-light btn-md-square me-0" href="https://kalolytic.com" target="_blank"><i class="fas fa-globe"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-md-0">
+                        <span class="text-body"><i class="fas fa-copyright text-light me-2"></i>© 2025 Komplieye designed by Satyam Suman.</span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end text-body">
+                        <a class="border-bottom text-primary" href="privacy-policy.html" target="_blank">Privacy Policy</a> | <a class="border-bottom text-primary" href="terms-of-service.html" target="_blank">Terms of Service</a> | <a class="border-bottom text-primary" href="data-protection.html" target="_blank">Data Protection</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+        <!-- Floating Social Media Icons -->
+        <div class="floating-social">
+            <a href="https://wa.me/919876543210" class="whatsapp" target="_blank" title="WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="https://t.me/komplieye" class="telegram" target="_blank" title="Telegram">
+                <i class="fab fa-telegram-plane"></i>
+            </a>
+        </div>
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <!-- AI & Automation Features End -->
+
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script>
+            function toggleFeatureDetails(sectionId, button) {
+                const section = document.getElementById(sectionId);
+                if (section.classList.contains('d-none')) {
+                    section.classList.remove('d-none');
+                    section.classList.add('d-block');
+                    button.textContent = 'Hide Details';
+                    button.classList.remove('btn-primary');
+                    button.classList.add('btn-secondary');
+                } else {
+                    section.classList.remove('d-block');
+                    section.classList.add('d-none');
+                    button.textContent = 'View Details';
+                    button.classList.remove('btn-secondary');
+                    button.classList.add('btn-primary');
+                }
+            }
+        </script>
+    </body>
+
+    
+
+</html>
